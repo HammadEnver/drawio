@@ -4,7 +4,7 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="tki1kjXWVjuSdo6I6qUh-1" parent="1" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=1;startSize=20;horizontalStack=0;html=1;labelBackgroundColor=none;align=center;fontSize=12;" value="Kissena Bakery - Revenue Cycle (Order to Cash)" vertex="1">
+        <mxCell id="tki1kjXWVjuSdo6I6qUh-1" parent="1" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=1;startSize=20;horizontalStack=0;html=1;labelBackgroundColor=none;align=center;fontSize=12;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Kissena Bakery - Revenue Cycle (Order to Cash)" vertex="1">
           <mxGeometry height="395.5" width="1000" x="40" y="260" as="geometry" />
         </mxCell>
         <mxCell id="tki1kjXWVjuSdo6I6qUh-2" parent="tki1kjXWVjuSdo6I6qUh-1" style="swimlane;startSize=20;horizontal=0;html=1;fillColor=#e3c800;strokeColor=#B09500;fontColor=#000000;" value="Sales Department" vertex="1">
@@ -33,7 +33,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="tki1kjXWVjuSdo6I6qUh-12" parent="tki1kjXWVjuSdo6I6qUh-2" style="shape=manualInput;whiteSpace=wrap;html=1;fillColor=light-dark(#DAE8FC,#38313B);strokeColor=#6c8ebf;" value="&amp;nbsp; &amp;nbsp; &amp;nbsp;Order Details Entered into Systems" vertex="1">
+        <mxCell id="tki1kjXWVjuSdo6I6qUh-12" parent="tki1kjXWVjuSdo6I6qUh-2" style="shape=manualInput;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#FFFF00);strokeColor=#6c8ebf;" value="&amp;nbsp; &amp;nbsp; &amp;nbsp;Order Details Entered into Systems" vertex="1">
           <mxGeometry height="90" width="90" x="330" y="10" as="geometry" />
         </mxCell>
         <mxCell id="tki1kjXWVjuSdo6I6qUh-14" parent="tki1kjXWVjuSdo6I6qUh-2" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" value="Sales Order Generated&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
@@ -66,8 +66,35 @@
         <mxCell id="tki1kjXWVjuSdo6I6qUh-3" parent="tki1kjXWVjuSdo6I6qUh-1" style="swimlane;startSize=20;horizontal=0;html=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" value="Warehouse Department" vertex="1">
           <mxGeometry height="120" width="1000" y="155.5" as="geometry" />
         </mxCell>
-        <mxCell id="tki1kjXWVjuSdo6I6qUh-35" parent="tki1kjXWVjuSdo6I6qUh-3" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
-          <mxGeometry height="69" width="126" x="42" y="21" as="geometry" />
+        <mxCell id="tki1kjXWVjuSdo6I6qUh-42" edge="1" parent="tki1kjXWVjuSdo6I6qUh-3" source="tki1kjXWVjuSdo6I6qUh-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;" target="tki1kjXWVjuSdo6I6qUh-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tki1kjXWVjuSdo6I6qUh-35" parent="tki1kjXWVjuSdo6I6qUh-3" style="rounded=1;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#D4E1F5);" value="Sales Order Received By Warehouse" vertex="1">
+          <mxGeometry height="69" width="105" x="42" y="21" as="geometry" />
+        </mxCell>
+        <mxCell id="tki1kjXWVjuSdo6I6qUh-44" edge="1" parent="tki1kjXWVjuSdo6I6qUh-3" source="tki1kjXWVjuSdo6I6qUh-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" target="tki1kjXWVjuSdo6I6qUh-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tki1kjXWVjuSdo6I6qUh-45" edge="1" parent="tki1kjXWVjuSdo6I6qUh-3" source="tki1kjXWVjuSdo6I6qUh-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="tki1kjXWVjuSdo6I6qUh-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tki1kjXWVjuSdo6I6qUh-36" parent="tki1kjXWVjuSdo6I6qUh-3" style="rhombus;whiteSpace=wrap;html=1;direction=south;fillColor=light-dark(#FFFFFF,#FFFF00);" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(102, 255, 179));&quot;&gt;Inventory Available&lt;/font&gt;" vertex="1">
+          <mxGeometry height="82" width="90.5" x="203.5" y="8.5" as="geometry" />
+        </mxCell>
+        <mxCell id="tki1kjXWVjuSdo6I6qUh-37" parent="tki1kjXWVjuSdo6I6qUh-3" style="rounded=1;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#FF0000);" value="Escalate to Manager - Back-order or Cancel" vertex="1">
+          <mxGeometry height="43.5" width="101" x="338" y="56.5" as="geometry" />
+        </mxCell>
+        <mxCell id="tki1kjXWVjuSdo6I6qUh-38" parent="tki1kjXWVjuSdo6I6qUh-3" style="rounded=1;whiteSpace=wrap;html=1;" value="Goods Picked &amp;amp; Packed" vertex="1">
+          <mxGeometry height="69" width="101" x="483" y="21" as="geometry" />
+        </mxCell>
+        <mxCell id="tki1kjXWVjuSdo6I6qUh-39" parent="tki1kjXWVjuSdo6I6qUh-3" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Packing Slip Generated" vertex="1">
+          <mxGeometry height="80" width="120" x="611" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tki1kjXWVjuSdo6I6qUh-40" parent="tki1kjXWVjuSdo6I6qUh-3" style="rounded=1;whiteSpace=wrap;html=1;" value="Shipping Authorization Verified" vertex="1">
+          <mxGeometry height="60" width="120" x="758" y="25.5" as="geometry" />
+        </mxCell>
+        <mxCell id="tki1kjXWVjuSdo6I6qUh-41" parent="tki1kjXWVjuSdo6I6qUh-3" style="shape=offPageConnector;whiteSpace=wrap;html=1;" value="-&amp;gt; Continued Page 2" vertex="1">
+          <mxGeometry height="80" width="80" x="905" y="20" as="geometry" />
         </mxCell>
         <mxCell id="tki1kjXWVjuSdo6I6qUh-4" parent="tki1kjXWVjuSdo6I6qUh-1" style="swimlane;startSize=20;horizontal=0;html=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" value="Billing Department" vertex="1">
           <mxGeometry height="120" width="1000" y="275.5" as="geometry" />
