@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net">
+<mxfile host="app.diagrams.net" pages="2">
   <diagram name="Page-1" id="fVI4MLGTLZeeTIQhcec5">
     <mxGraphModel dx="1544" dy="605" grid="1" gridSize="21" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
@@ -98,6 +98,50 @@
         </mxCell>
         <mxCell id="tki1kjXWVjuSdo6I6qUh-4" parent="tki1kjXWVjuSdo6I6qUh-1" style="swimlane;startSize=20;horizontal=0;html=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" value="Billing Department" vertex="1">
           <mxGeometry height="120" width="1000" y="275.5" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="rvtekJfhaTF-dw-rFoDq" name="WAREHOUSE LANE CONTINUES">
+    <mxGraphModel dx="1726" dy="676" grid="1" gridSize="21" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="yguG11pUxPkrU7rV_aP7-1" parent="1" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=1;startSize=20;horizontalStack=0;html=1;labelBackgroundColor=none;align=center;fontSize=12;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Kissena Bakery - Revenue Cycle (Order to Cash)" vertex="1">
+          <mxGeometry height="395.5" width="1000" x="50" y="63" as="geometry" />
+        </mxCell>
+        <mxCell id="yguG11pUxPkrU7rV_aP7-2" parent="yguG11pUxPkrU7rV_aP7-1" style="swimlane;startSize=20;horizontal=0;html=1;fillColor=#e3c800;strokeColor=#B09500;fontColor=#000000;" value="Sales Department" vertex="1">
+          <mxGeometry height="135.5" width="1000" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="yguG11pUxPkrU7rV_aP7-18" parent="yguG11pUxPkrU7rV_aP7-1" style="swimlane;startSize=20;horizontal=0;html=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" value="Warehouse Department" vertex="1">
+          <mxGeometry height="120" width="1000" y="155.5" as="geometry" />
+        </mxCell>
+        <mxCell id="yguG11pUxPkrU7rV_aP7-31" parent="yguG11pUxPkrU7rV_aP7-18" style="shape=offPageConnector;whiteSpace=wrap;html=1;align=center;" value="-&amp;gt; CONTINUED PAGE 2" vertex="1">
+          <mxGeometry height="63" width="84" x="34" y="10.75" as="geometry" />
+        </mxCell>
+        <mxCell id="yguG11pUxPkrU7rV_aP7-32" parent="yguG11pUxPkrU7rV_aP7-18" style="rounded=1;whiteSpace=wrap;html=1;" value="Goods Dispatched to Customer" vertex="1">
+          <mxGeometry height="60" width="120" x="181" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yguG11pUxPkrU7rV_aP7-29" parent="yguG11pUxPkrU7rV_aP7-1" style="swimlane;startSize=20;horizontal=0;html=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" value="Billing Department" vertex="1">
+          <mxGeometry height="120" width="1000" y="275.5" as="geometry" />
+        </mxCell>
+        <mxCell id="yguG11pUxPkrU7rV_aP7-33" parent="yguG11pUxPkrU7rV_aP7-29" style="rounded=1;whiteSpace=wrap;html=1;" value="Dispatch Confirmation Received&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="34" y="26.5" as="geometry" />
+        </mxCell>
+        <mxCell id="yguG11pUxPkrU7rV_aP7-34" parent="yguG11pUxPkrU7rV_aP7-29" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" value="Invoice Generated &amp;amp; Sent to Customer" vertex="1">
+          <mxGeometry height="80" width="120" x="202" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="yguG11pUxPkrU7rV_aP7-39" parent="yguG11pUxPkrU7rV_aP7-29" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" value="End" vertex="1">
+          <mxGeometry height="60" width="100" x="853" y="26.5" as="geometry" />
+        </mxCell>
+        <mxCell id="yguG11pUxPkrU7rV_aP7-38" parent="yguG11pUxPkrU7rV_aP7-29" style="rounded=1;whiteSpace=wrap;html=1;" value="Cash Posted to Accounts Receivable" vertex="1">
+          <mxGeometry height="60" width="120" x="685" y="26.5" as="geometry" />
+        </mxCell>
+        <mxCell id="yguG11pUxPkrU7rV_aP7-37" parent="yguG11pUxPkrU7rV_aP7-29" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" value="Remittance Advice Recorded" vertex="1">
+          <mxGeometry height="80" width="120" x="538" y="16.5" as="geometry" />
+        </mxCell>
+        <mxCell id="yguG11pUxPkrU7rV_aP7-36" parent="yguG11pUxPkrU7rV_aP7-29" style="rounded=1;whiteSpace=wrap;html=1;" value="Payment Received by Customer" vertex="1">
+          <mxGeometry height="60" width="120" x="380" y="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
