@@ -84,17 +84,20 @@
         <mxCell id="tki1kjXWVjuSdo6I6qUh-37" parent="tki1kjXWVjuSdo6I6qUh-3" style="rounded=1;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#FF0000);" value="Escalate to Manager - Back-order or Cancel" vertex="1">
           <mxGeometry height="43.5" width="101" x="338" y="56.5" as="geometry" />
         </mxCell>
+        <mxCell id="PEvL9Ka8hC-2PuUHfhAM-6" edge="1" parent="tki1kjXWVjuSdo6I6qUh-3" source="tki1kjXWVjuSdo6I6qUh-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="tki1kjXWVjuSdo6I6qUh-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="tki1kjXWVjuSdo6I6qUh-38" parent="tki1kjXWVjuSdo6I6qUh-3" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="Goods Picked &amp;amp; Packed" vertex="1">
           <mxGeometry height="69" width="101" x="483" y="21" as="geometry" />
         </mxCell>
         <mxCell id="tki1kjXWVjuSdo6I6qUh-39" parent="tki1kjXWVjuSdo6I6qUh-3" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#dae8fc;strokeColor=none;gradientColor=#7ea6e0;" value="Packing Slip Generated" vertex="1">
-          <mxGeometry height="80" width="120" x="611" y="20" as="geometry" />
+          <mxGeometry height="80" width="103" x="611" y="25.5" as="geometry" />
         </mxCell>
-        <mxCell id="tki1kjXWVjuSdo6I6qUh-40" parent="tki1kjXWVjuSdo6I6qUh-3" style="rounded=1;whiteSpace=wrap;html=1;" value="Shipping Authorization Verified" vertex="1">
+        <mxCell id="tki1kjXWVjuSdo6I6qUh-40" parent="tki1kjXWVjuSdo6I6qUh-3" style="whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=light-dark(#DAE8FC,#11383B);" value="Shipping Authorization Verified" vertex="1">
           <mxGeometry height="60" width="120" x="758" y="25.5" as="geometry" />
         </mxCell>
-        <mxCell id="tki1kjXWVjuSdo6I6qUh-41" parent="tki1kjXWVjuSdo6I6qUh-3" style="shape=offPageConnector;whiteSpace=wrap;html=1;" value="-&amp;gt; Continued Page 2" vertex="1">
-          <mxGeometry height="80" width="80" x="905" y="20" as="geometry" />
+        <mxCell id="tki1kjXWVjuSdo6I6qUh-41" parent="tki1kjXWVjuSdo6I6qUh-3" style="shape=offPageConnector;whiteSpace=wrap;html=1;fillColor=light-dark(#FFCD28,#EB8E00);gradientColor=none;strokeColor=#d79b00;" value="&lt;font style=&quot;font-size: 9px; line-height: 190%;&quot;&gt;-&amp;gt; Continued Page 2&lt;/font&gt;" vertex="1">
+          <mxGeometry height="45.5" width="63" x="924" y="21" as="geometry" />
         </mxCell>
         <mxCell id="PEvL9Ka8hC-2PuUHfhAM-1" edge="1" parent="tki1kjXWVjuSdo6I6qUh-3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;curved=0;entryX=0.469;entryY=-0.014;entryDx=0;entryDy=0;entryPerimeter=0;">
           <mxGeometry relative="1" as="geometry">
@@ -111,6 +114,12 @@
             <mxPoint x="947" y="-37.5" as="sourcePoint" />
             <mxPoint x="107.03499999999988" y="20.004000000000104" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="PEvL9Ka8hC-2PuUHfhAM-7" edge="1" parent="tki1kjXWVjuSdo6I6qUh-3" source="tki1kjXWVjuSdo6I6qUh-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.005;entryY=0.326;entryDx=0;entryDy=0;entryPerimeter=0;" target="tki1kjXWVjuSdo6I6qUh-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PEvL9Ka8hC-2PuUHfhAM-9" edge="1" parent="tki1kjXWVjuSdo6I6qUh-3" source="tki1kjXWVjuSdo6I6qUh-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.023;entryY=0.379;entryDx=0;entryDy=0;entryPerimeter=0;" target="tki1kjXWVjuSdo6I6qUh-41">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="tki1kjXWVjuSdo6I6qUh-4" parent="tki1kjXWVjuSdo6I6qUh-1" style="swimlane;startSize=20;horizontal=0;html=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" value="Billing Department" vertex="1">
           <mxGeometry height="120" width="1000" y="275.5" as="geometry" />
