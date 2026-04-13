@@ -131,6 +131,18 @@
         <mxCell id="tki1kjXWVjuSdo6I6qUh-30" parent="tki1kjXWVjuSdo6I6qUh-2" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;Yes - Approved&lt;/font&gt;" vertex="1">
           <mxGeometry height="30" width="81" x="693" y="10" as="geometry" />
         </mxCell>
+        <mxCell id="Z3KTHVLhL2-KfhM__L9T-5" edge="1" parent="tki1kjXWVjuSdo6I6qUh-2" source="Z3KTHVLhL2-KfhM__L9T-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;endFill=0;" target="tki1kjXWVjuSdo6I6qUh-15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="717" y="150" />
+              <mxPoint x="717" y="116" />
+              <mxPoint x="637" y="116" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z3KTHVLhL2-KfhM__L9T-4" parent="tki1kjXWVjuSdo6I6qUh-2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcd28;gradientColor=#ffa500;strokeColor=none;dashed=1;" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 11px; background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(153, 255, 204));&quot;&gt;Control Activity CA-01&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 11px; background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(153, 255, 204));&quot;&gt;- This credit check prevents Kissena Bakery from Fulfilling orders from customers who are unable to pay, reducing risk of bad debt and revenue loss&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="252.5" x="444" y="120" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
